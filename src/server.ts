@@ -1,4 +1,5 @@
 import { McpServer } from '@modelcontextprotocol/server';
+import { registerEvaluateFit } from './prompts/evaluate_fit';
 import { registerGetProfile } from './tools/get_profile';
 import { registerGetProject } from './tools/get_project';
 import { registerSearchProjects } from './tools/search_projects';
@@ -13,6 +14,7 @@ export function createServer(): McpServer {
   registerGetProfile(server);
   registerSearchProjects(server);
   registerGetProject(server);
+  registerEvaluateFit(server);
 
   return server;
 }
