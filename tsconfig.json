@@ -9,6 +9,7 @@
       "ESNext"
     ],
     "resolveJsonModule": true,
-    "noEmit": true
+    "noEmit": true,
+    "types": ["./worker-configuration.d.ts"]
   }
 }
