@@ -1,5 +1,7 @@
 import { McpServer } from '@modelcontextprotocol/server';
 import { registerGetProfile } from './tools/get_profile';
+import { registerGetProject } from './tools/get_project';
+import { registerSearchProjects } from './tools/search_projects';
 
 export function createServer(): McpServer {
   const server = new McpServer({
@@ -9,6 +11,8 @@ export function createServer(): McpServer {
   });
 
   registerGetProfile(server);
+  registerSearchProjects(server);
+  registerGetProject(server);
 
   return server;
 }
