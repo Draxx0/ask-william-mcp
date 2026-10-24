@@ -17,5 +17,7 @@ app.use('*', cors());
 app.all('/', (c: Context) =>
   handler.fetch(c.req.raw, { parsedBody: c.get('parsedBody') }),
 );
+// Vercel routes /favicon.ico to the function instead of public/, so point it at the icon.
+app.get('/favicon.ico', (c) => c.redirect('/icon.png', 301));
 
 export default app;
