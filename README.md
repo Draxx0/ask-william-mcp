@@ -2,7 +2,7 @@
 
 Un serveur [MCP](https://modelcontextprotocol.io) en lecture seule : ajoutez une URL dans Claude et posez vos questions sur mon parcours.
 
-> Endpoint : `https://mcp.william-fort.fr` (déploiement en cours)
+> Endpoint : `https://mcp.william-fort.fr`
 
 **Essayer** : Claude → Paramètres → Connecteurs → Ajouter un connecteur personnalisé, puis demander « Quels projets ont utilisé TypeScript en production ? ».
 
