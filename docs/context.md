@@ -27,7 +27,7 @@ Le découpage en outils, ressources et prompts reste à concevoir à partir de c
 
 - TypeScript strict.
 - SDK officiel MCP en v2 (`@modelcontextprotocol/server`), pas l'ancien `@modelcontextprotocol/sdk`.
-- Hono, déployé sur Cloudflare Workers.
+- Hono, déployé sur Vercel.
 - Transport Streamable HTTP.
 - Endpoint sur un sous-domaine dédié, la page de présentation reste sur le portfolio.
 
