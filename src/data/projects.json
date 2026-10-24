@@ -32,5 +32,34 @@
       "Contrats Zod partagés entre l'application et l'agent pour typer chaque échange.",
       "Garde du chat côté serveur : authentification, propriété de la session et plafonds de messages (30 par minute, 100 par jour)."
     ]
+  },
+  {
+    "slug": "ask-william-mcp",
+    "name": "Ask William",
+    "summary": "Serveur MCP qui permet d'interroger le parcours de William depuis Claude ou tout autre assistant compatible : on ajoute une URL et on pose ses questions en langage naturel.",
+    "status": "in_production",
+    "stack": [
+      "TypeScript",
+      "MCP SDK",
+      "Hono",
+      "Zod",
+      "Vitest",
+      "Vercel"
+    ],
+    "skills": [
+      "MCP",
+      "tool design",
+      "prompt design",
+      "data validation"
+    ],
+    "highlights": [
+      "Serveur MCP distant en Streamable HTTP et sans état, accessible depuis une seule URL : mcp.william-fort.fr.",
+      "Trois outils en lecture seule et un prompt evaluate_fit, avec des descriptions rédigées pour guider le choix d'outil du modèle.",
+      "Erreurs conçues pour que le modèle se corrige seul : un slug inconnu renvoie la liste des slugs valides.",
+      "Données validées par des schémas Zod stricts : une donnée invalide fait échouer les tests avant le déploiement.",
+      "Tests de bout en bout via le client MCP officiel, sur les deux modes de négociation de version du protocole.",
+      "Validation du Host contre le DNS rebinding et CORS ouvert pour les clients navigateur.",
+      "Déploiement continu sur Vercel, bloqué tant que les tests ne passent pas."
+    ]
   }
 ]
