@@ -46,6 +46,12 @@ describe.each<Mode>(['legacy', 'auto'])(
       await client.close();
     });
 
+    it('announces an icon for the connector', () => {
+      expect(client.getServerVersion()?.icons?.[0]?.src).toBe(
+        'https://mcp.william-fort.fr/icon.png',
+      );
+    });
+
     it('lists the tools as read-only', async () => {
       const { tools } = await client.listTools();
       expect(tools.map((t) => t.name).sort()).toEqual([

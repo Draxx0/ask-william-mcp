@@ -9,6 +9,7 @@ export function createServer(): McpServer {
     name: 'william-fort-portfolio',
     title: 'Ask William',
     version: '0.1.0',
+    icons: [{ src: 'https://mcp.william-fort.fr/icon.png', mimeType: 'image/png', sizes: ['256x256'] }],
   });
 
   registerGetProfile(server);
