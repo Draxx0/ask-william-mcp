@@ -1,4 +1,4 @@
-import profileJson from './profile.json';
-import { ProfileSchema } from './schema';
+import profileJson from './profile.json' with { type: 'json' };
+import { ProfileSchema } from './schema.js';
 
 export const profile = ProfileSchema.parse(profileJson);

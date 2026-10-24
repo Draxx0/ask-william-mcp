@@ -1,7 +1,7 @@
 import type { McpServer } from '@modelcontextprotocol/server';
 import * as z from 'zod/v4';
-import { profile } from '../data/profile';
-import { projects } from '../data/projects';
+import { profile } from '../data/profile.js';
+import { projects } from '../data/projects.js';
 
 export const registerEvaluateFit = (server: McpServer) => {
   server.registerPrompt(

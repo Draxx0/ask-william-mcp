@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
-import profileJson from '../src/data/profile.json';
-import projectsJson from '../src/data/projects.json';
-import { ProfileSchema, ProjectsSchema } from '../src/data/schema';
+import profileJson from '../src/data/profile.json' with { type: 'json' };
+import projectsJson from '../src/data/projects.json' with { type: 'json' };
+import { ProfileSchema, ProjectsSchema } from '../src/data/schema.js';
 
 describe('data', () => {
   it('profile.json matches the schema', () => {

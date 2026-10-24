@@ -3,9 +3,9 @@ import {
   StreamableHTTPClientTransport,
 } from '@modelcontextprotocol/client';
 import { afterEach, beforeEach, describe, expect, it } from 'vitest';
-import { profile } from '../src/data/profile';
-import { projects } from '../src/data/projects';
-import app from '../src/index';
+import { profile } from '../src/data/profile.js';
+import { projects } from '../src/data/projects.js';
+import app from '../src/index.js';
 
 type Mode = 'legacy' | 'auto';
 

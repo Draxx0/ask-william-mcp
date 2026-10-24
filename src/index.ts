@@ -2,7 +2,7 @@ import { createMcpHonoApp } from '@modelcontextprotocol/hono';
 import { createMcpHandler } from '@modelcontextprotocol/server';
 import type { Context } from 'hono';
 import { cors } from 'hono/cors';
-import { createServer } from './server';
+import { createServer } from './server.js';
 
 const handler = createMcpHandler(createServer);
 

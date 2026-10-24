@@ -1,4 +1,4 @@
-import projectsJson from './projects.json';
-import { ProjectsSchema } from './schema';
+import projectsJson from './projects.json' with { type: 'json' };
+import { ProjectsSchema } from './schema.js';
 
 export const projects = ProjectsSchema.parse(projectsJson);

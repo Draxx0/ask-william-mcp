@@ -1,5 +1,5 @@
 import type { McpServer } from '@modelcontextprotocol/server';
-import { profile } from '../data/profile';
+import { profile } from '../data/profile.js';
 
 export const registerGetProfile = (server: McpServer) => {
   server.registerTool(

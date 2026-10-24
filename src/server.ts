@@ -1,8 +1,8 @@
 import { McpServer } from '@modelcontextprotocol/server';
-import { registerEvaluateFit } from './prompts/evaluate_fit';
-import { registerGetProfile } from './tools/get_profile';
-import { registerGetProject } from './tools/get_project';
-import { registerSearchProjects } from './tools/search_projects';
+import { registerEvaluateFit } from './prompts/evaluate_fit.js';
+import { registerGetProfile } from './tools/get_profile.js';
+import { registerGetProject } from './tools/get_project.js';
+import { registerSearchProjects } from './tools/search_projects.js';
 
 export function createServer(): McpServer {
   const server = new McpServer({

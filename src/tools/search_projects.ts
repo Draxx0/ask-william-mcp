@@ -1,6 +1,6 @@
 import type { McpServer } from '@modelcontextprotocol/server';
 import * as z from 'zod/v4';
-import { projects } from '../data/projects';
+import { projects } from '../data/projects.js';
 
 export const registerSearchProjects = (server: McpServer) => {
   server.registerTool(
