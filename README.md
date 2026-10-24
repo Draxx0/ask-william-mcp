@@ -31,6 +31,7 @@ Un serveur [MCP](https://modelcontextprotocol.io) en lecture seule : ajoutez une
 | Erreurs avec les valeurs valides | Le modèle se corrige seul | Erreur générique |
 | Descriptions EN, données FR | Sélection d'outil plus fiable en anglais, une seule source de données | Données traduites |
 | Toutes origines + CORS | Données publiques, les clients navigateur doivent pouvoir appeler | Liste d'origines autorisées |
+| Rate limiting au Firewall Vercel (60 req/min par IP) | Bloque l'abus avant la fonction, sans état partagé | Compteur dans le code, inefficace en serverless |
 | Données validées par Zod | Une erreur casse la CI, pas la prod | Types TypeScript seuls |
 | Tests via le vrai protocole | Teste la sérialisation et la négociation | Appeler les handlers directement |
 
