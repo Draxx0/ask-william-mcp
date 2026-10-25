@@ -6,7 +6,8 @@ export const ProfileSchema = z.strictObject({
   firstName: text,
   lastName: text,
   headline: text,
-  lookingFor: text,
+  about: text,
+  openTo: text,
   location: text,
   contact: z.strictObject({
     email: z.email(),

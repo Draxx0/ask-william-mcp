@@ -1,8 +1,9 @@
 {
   "firstName": "William",
   "lastName": "FORT",
-  "headline": "AI Applied Engineer",
-  "lookingFor": "Un poste d'ingénieur IA au sein d'une équipe qui conçoit, déploie et maintient des systèmes d'IA en production.",
+  "headline": "Développeur web fullstack, spécialisé en AI Applied Engineering",
+  "about": "Je conçois des applications web de bout en bout et j'aide les entreprises à intégrer l'IA dans leurs produits et leurs process : RAG sur leurs propres données, agents IA, intégrations LLM en production.",
+  "openTo": "Ouvert aux échanges avec les recruteurs et les entreprises qui veulent intégrer l'IA. Ce serveur MCP est fait pour ça : posez-lui vos questions, puis contactez-moi directement.",
   "location": "Paris et alentours",
   "contact": {
     "email": "williamfort.work@gmail.com",

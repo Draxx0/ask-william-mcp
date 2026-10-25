@@ -5,7 +5,7 @@
 Deux objectifs, dans cet ordre :
 
 1. Apprendre MCP au niveau du protocole, en le construisant à la main plutôt qu'en passant par un framework qui le masque.
-2. Avoir une preuve concrète à montrer à des recruteurs AI engineer : un serveur en production, testé, que n'importe qui peut brancher dans son assistant en collant une URL.
+2. Me présenter comme développeur web fullstack spécialisé en AI Applied Engineering, et me faire démarcher : un serveur en production, testé, que n'importe qui peut brancher dans son assistant en collant une URL.
 
 Si un choix sert le second objectif au détriment du premier, le premier gagne.
 
@@ -15,7 +15,7 @@ Un recruteur ou un client qui ajoute le serveur dans Claude (ou un autre client 
 
 ## Ce que le visiteur doit pouvoir faire
 
-- Comprendre en une question qui je suis et ce que je cherche.
+- Comprendre en une question qui je suis et ce que je fais.
 - Trouver les projets qui correspondent à une technologie ou à un type de problème.
 - Obtenir le détail d'un projet avec des résultats concrets.
 - Vérifier si mon profil correspond à une fiche de poste précise.

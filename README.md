@@ -10,7 +10,7 @@ Un serveur [MCP](https://modelcontextprotocol.io) en lecture seule : ajoutez une
 
 | Nom | Type | Rôle |
 | --- | --- | --- |
-| `get_profile` | outil | Qui je suis, ce que je cherche, mes contacts |
+| `get_profile` | outil | Qui je suis, ce que je fais, mes contacts |
 | `search_projects` | outil | Projets en résumé, filtrables par techno ou compétence |
 | `get_project` | outil | Détail d'un projet |
 | `evaluate_fit` | prompt | Compare une fiche de poste à mon profil |
